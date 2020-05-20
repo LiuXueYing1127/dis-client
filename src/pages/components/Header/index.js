@@ -18,7 +18,10 @@ export default class Header extends React.Component {
                         </Menu.Item>
                         <Menu.Item className='header-menuitem'>
                             <NavLink to='/extract'>要素抽取</NavLink>
-                         </Menu.Item>
+                        </Menu.Item>
+                        <Menu.Item className='header-menuitem'>
+                            <NavLink to='/login?logout=true'>退出</NavLink>
+                        </Menu.Item>
                     </Menu>
                     </Col>
                 </Row>
